@@ -1,0 +1,53 @@
+{
+  "extensions.ignoreRecommendations": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "[typescript]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off"
+  },
+
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
+  "[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    "editor.formatOnSave": true
+  },
+  "php-cs-fixer.rules": "@PSR2",
+  "php-cs-fixer.formatHtml": true,
+  "workbench.startupEditor": "none",
+
+  "editor.fontSize": 15,
+  "files.autoSave": "off",
+  "editor.tabSize": 1,
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontSize": 13,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.minimap.enabled": false,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "editor.cursorBlinking": "expand",
+  "window.zoomLevel": 1,
+  "terminal.integrated.defaultLocation": "editor",
+  "workbench.panel.defaultLocation": "right"
+}
